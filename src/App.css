@@ -1,0 +1,14 @@
+body{
+    background-color: #111;
+    color: #555;
+}
+
+.noteview.active:before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-width: 10px 10px 0 0;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.5) #f1f1f1;
+}
